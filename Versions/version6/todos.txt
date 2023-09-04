@@ -1,0 +1,6 @@
+1. health bar/health count
+2. original designs
+3. animated attacks / blocks for bot
+4. win music
+5. pause sound effect
+6. Move variables to important.py

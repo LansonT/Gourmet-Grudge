@@ -1,0 +1,13 @@
+changes that were made in versions 8 and maybe from 7:
+
+version8 improves behavior of attack animations. all of the bot's attacks are now reactable and are easier to react and block to.
+    implemation for reactable player attacks will be included in version9
+
+Fight.py (now fight.py) has been overhauled to be a lot more simple and straight forward within the file.
+    Most if not all variables have moved over to important.py
+    plans for fight.py for version9 include:
+        reactable attacks for bots to block player attacks
+        recreating implemation of stun feature. (issue: unable to pause or quit the game due to *while* loop within fight.py)
+
+visuals.py had a couple of bugs which were corrected which included L_active/R_active, Bot_Attack[0] and Bot_Attack[2]
+    plans for visuals.py for version9 include simplification of file and relocation of all significant variables similar to fight.py

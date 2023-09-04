@@ -1,0 +1,31 @@
+Version 9 notes-
+
+Updates:
+The following features were updated since version 7 and 8:
+    behavior of attacks have been updated, delaying damage until the end of the animation.
+        version 8 allow players the opportunity to block attacks by the bot
+        version 9 has now updated player's attacks to behave similarly so now the bot has a chance of blocking the player's attacks
+
+    Pause feature was bugged, being unable to pause the game depending on the situation
+        version 9 has fixed the oversight and players can now pause the game anytime
+        stun feature has be redeveloped but still behaves similar to previous versions
+
+    visuals.py has been overhauled and is now more simplistic than before.
+        most variables have been moved to important.py
+        fight.py no longer requires visuals.py, all variables are referenced from important.player
+
+Next steps for Version 9:
+    designing original aesthetics and designs for the game
+    find/create suitable music
+        main sound files to update - win music
+    
+Plans for Version 9+ / 10:
+    Focus - make the game more challenging
+
+    New
+        allow bot to block more than one direction at a time
+
+    Adjust 
+        reactable time for bot attacks, decrease the amount of time player can react
+        disable player's ability to block right after attacking
+        QOL: change display resolution, allow for more flexability in choice of resolution
